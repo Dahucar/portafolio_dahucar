@@ -1,5 +1,51 @@
 .wall-background{
-    min-height: 100vh;
+    padding: 10px;
+    min-height: 65vh;
     width: 100%;
+    background-position: center;
     background-image: url('https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+
+    /* Aumentamos la anchura y altura durante 2 segundos */
+    /* transform : scale(2); */
+    /* -moz-transform : scale(2);      Firefox */
+    /* -webkit-transform : scale(2);   Chrome - Safari */
+    /* -o-transform : scale(2);  */
+
 }
+
+.wall-container {
+    height: 60vh;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wall-sub-container {
+    text-align: center;
+    width: 100%;
+}
+
+.wall-descrip {
+    text-align: justify;
+    color: black;
+    opacity: 0.5;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px 4px;
+}
+
+.wall-sub-container h1 {
+    border-bottom: solid #ccc 2px;
+}
+
+.my-card {
+    width: 250px;
+}
+
+.custom-img {
+    /* width: 250px; */
+    height: 250px;
+    padding: 5px;
+}
+
