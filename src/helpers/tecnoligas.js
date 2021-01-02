@@ -37,13 +37,8 @@ export const listado = [
     {
         name: 'Angular',
         experience: 'basica',
-        img: 'https://assets.stickpng.com/images/5847ea22cef1014c0b5e4833.png'
-    }, 
-    {
-        name: 'Bootstrap',
-        experience: 'avanzada',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1024px-Bootstrap_logo.svg.png'
-    }, 
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png'
+    },
     {
         name: 'HTML5',
         experience: 'avanzada',
@@ -63,10 +58,5 @@ export const listado = [
         name: 'MongoDB',
         experience: 'basica',
         img: 'https://img.icons8.com/color/452/mongodb.png'
-    }, 
-    {
-        name: 'MongoDB Atlas',
-        experience: 'basica',
-        img: 'https://ubunlog.com/wp-content/uploads/2020/10/mongodb-atlas.png'
     }
 ];

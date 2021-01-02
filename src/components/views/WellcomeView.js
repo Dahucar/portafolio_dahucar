@@ -1,16 +1,17 @@
 import React from 'react';
-import { listado } from '../../helpers/tecnoligas';
 import './styles.css';
+import { TecnoItem } from './TecnoItem';
+import { listado } from '../../helpers/tecnoligas';
 
 export const WellcomeView = () => {
   return (
     <>
-      <div className="wall-background">
+      <header className="wall-background">
         <div className="container">
           {/* contenido inicial */}
           <div className="wall-container">
-            <div className="wall-sub-container">
-              <h1 className="text-white">Portafolio Daniel Huenul C&aacute;rcamo</h1>
+            <div className="wall-sub-container animate__fadeIn">
+              <h2 className="text-white">Portafolio</h2><h1 className="text-white">Daniel Huenul C&aacute;rcamo</h1>
               <blockquote className="blockquote">
                 <p className="wall-descrip">
                   Aspirante a desarrollador FullStack pero con mucho camino por recorrer aún.
@@ -23,24 +24,42 @@ export const WellcomeView = () => {
             </div>
           </div>
         </div>
-      </div>
+      </header>
+      {/* seccion de proyectos */}
+      <section className="proyects">
+        <div className="seccion-title">
+          <h2 className="container text-white">
+            <i className="fas fa-project-diagram"></i> 
+            Proyectos realizados.
+          </h2>
+        </div>
+        <div className="container">
+          <div className="row mt-4">
+              
+          </div>
+        </div>
+      </section>
       {/* sección con tecnologias */}
-      <section className="container">
-        <h2 className="text-white">Heramientas conocidas.</h2>
-        <div className="row mt-4">
-          {
-            listado.map( tecnologia => 
-              <div className="col-md-4 mb-2" key={ tecnologia.name }>
-                <div className="card course h-100 p-2">
-                  <img src={ tecnologia.img } className="card-img-top" alt={ tecnologia.name } />
-                  <div className="card-body">
-                    <h5 className="card-title">{ tecnologia.name } <span className="text-muted">{ tecnologia.experience }</span> </h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
-              </div>
-            )
-          }   
+      <section className="skills">
+        <div className="seccion-title">
+          <h2 className="container text-white">
+            <i className="fas fa-laptop-code"></i> 
+            Heramientas conocidas.
+          </h2>
+        </div>
+        <div className="container">
+          <div className="row mt-4">
+            {
+              listado.map( tecnologia => 
+                <TecnoItem 
+                  key={ tecnologia.name }
+                  name={ tecnologia.name } 
+                  img={ tecnologia.img } 
+                  experience={ tecnologia.experience } 
+                />
+              )
+            }   
+          </div>
         </div>
       </section>
     </>

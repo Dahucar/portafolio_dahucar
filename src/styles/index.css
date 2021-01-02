@@ -1,3 +1,7 @@
 html, body {
-    background-color: rgb(50, 6, 63);
+    background:
+    linear-gradient(135deg, transparent 21px, #ffffff 22px, transparent 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+    linear-gradient(225deg, transparent 21px, #ffffff 22px, transparent 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+    background-color:#303336;
+    background-size: 64px 128px;
 }

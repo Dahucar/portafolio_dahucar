@@ -2,8 +2,17 @@ import React from 'react';
 
 export const AboutView = () => {
   return (
-    <div>
-      <h2 className="text-white">this is my personal description</h2>  
-    </div>
+    <section className="proyects">
+      <div className="seccion-title">
+        <h2 className="container text-white">
+          <i class="fas fa-user-alt"></i> Some mi.
+        </h2>
+      </div>
+      <div className="container">
+        <div className="row mt-4">
+            
+        </div>
+      </div>
+    </section>
   )
 }
