@@ -10,6 +10,7 @@ import { AboutView } from '../components/views/AboutView';
 import { ContactView } from '../components/views/ContactView';
 import { ProjectsView } from '../components/views/ProjectsView';
 import { WellcomeView } from '../components/views/WellcomeView';
+import '../styles/index.css';
 
 export const AppRouter = () => {
   return (

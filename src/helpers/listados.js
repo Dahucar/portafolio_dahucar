@@ -1,4 +1,4 @@
-export const listado = [
+export const tecnologias = [
     {
         name: 'JavaScript',
         experience: 'avanzada',
@@ -58,5 +58,28 @@ export const listado = [
         name: 'MongoDB',
         experience: 'basica',
         img: 'https://img.icons8.com/color/452/mongodb.png'
+    }
+];
+
+export const mediosContacto = [
+    {
+        ico: 'https://image.flaticon.com/icons/png/512/281/281769.png',
+        name: 'Gmail',
+        link: 'MAILTO:danielhuenul90@gmail.com'
+    },
+    {
+        ico: 'https://image.flaticon.com/icons/png/512/25/25231.png',
+        name: 'GitHub',
+        link: 'https://github.com/Dahucar'
+    }
+];
+
+export const infoAbout = [
+    {   
+        initDate: '2018-03-05',
+        finishDate: '2020-07-12',
+        acitivityTitle: 'Formación profesional - Analista progrmador',
+        activityLocate: 'CFT. Inacap Temuco.',
+        acitivityDescript: 'Formación profesional como analista programador.',
     }
 ];

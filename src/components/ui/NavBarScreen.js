@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export const NavBarScreen = () => {
   return (
@@ -11,9 +11,9 @@ export const NavBarScreen = () => {
         </button>
         <div className="collapse navbar-collapse" id="dhcNavbar">
           <div className="navbar-nav">
-            <Link className="nav-link" to="/about">Sobre mi</Link>
-            <Link className="nav-link" to="/projects">Mis proyectos</Link>
-            <Link className="nav-link" to="/contact">Contacto</Link>
+            <NavLink activeClassName='active' className="nav-link" to="/about">Sobre mi</NavLink>
+            <NavLink activeClassName='active' className="nav-link" to="/projects">Mis proyectos</NavLink>
+            <NavLink activeClassName='active' className="nav-link" to="/contact">Contacto</NavLink>
           </div>
         </div>
       </div>
