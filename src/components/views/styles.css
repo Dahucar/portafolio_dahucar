@@ -138,7 +138,7 @@
     width: 50%; */
     float: left;
     width: 300px;
-    height: 60vh;
+    height: 75vh;
     background: #CCC;
     overflow: hidden;
 }
@@ -170,7 +170,7 @@
     position: absolute;
     width: 0px;
     margin: 0px 10px;
-    top: 100px;
+    top: 90px;
     /* left: 0; */
     /* width: 100%; */
     /* margin: 0 auto; */
@@ -181,4 +181,8 @@
 
 .demo a {
     text-decoration: none;
+}
+
+.demo span {
+    font-size: 15px;
 }

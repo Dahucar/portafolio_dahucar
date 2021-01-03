@@ -27,7 +27,7 @@ export const tecnologias = [
     {
         name: 'Git',
         experience: 'intermedia',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAUx7oVHGJQEXZGjHiiwX5hifLbX1SQ9z9aQ&usqp=CAU'
+        img: 'https://3.bp.blogspot.com/-xhNpNJJyQhk/XIe4GY78RQI/AAAAAAAAItc/ouueFUj2Hqo5dntmnKqEaBJR4KQ4Q2K3ACK4BGAYYCw/s1600/logo%2Bgit%2Bicon.png'
     }, 
     {
         name: 'React',
